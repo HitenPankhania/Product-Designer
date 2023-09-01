@@ -16,7 +16,15 @@ function firstPageAnim(){
     .to(".boundingelem",{
         y: '0',        
         duration:2,
-        ease:Expo.easeInOut
+        ease:Expo.easeInOut,
+        stagger:  1
+        
+    })
+    .to(".homefooter",{
+      y: '-10',
+      opacity: 0,
+      duration: 2,
+      ease:Expo.easeInOut,
         
     })
 
