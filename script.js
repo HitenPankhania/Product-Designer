@@ -15,7 +15,7 @@ function firstPageAnim() {
       ease: Expo.easeInOut,
       duration: 2,
       delay: -1,
-      stagger: 0.2,
+      stagger: 0.9,
     })
     .from("#herofooter", {
       y: -10,
@@ -27,7 +27,6 @@ function firstPageAnim() {
 }
 
 function circleChaptaKaro() {
-  // define default scale value
   var xscale = 1;
   var yscale = 1;
 
