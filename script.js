@@ -17,13 +17,7 @@ function firstPageAnim() {
       delay: -1,
       stagger: 0.9,
     })
-    .from("#herofooter", {
-      y: -10,
-      opacity: 0,
-      duration: 1.5,
-      delay: -1,
-      ease: Expo.easeInOut,
-    });
+
 }
 
 function circleChaptaKaro() {
