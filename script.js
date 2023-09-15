@@ -7,7 +7,7 @@ function firstPageAnim() {
   tl.from("#nav", {
     y: "-10",
     opacity: 0,
-    duration: 1.5,
+    duration: 2,
     ease: Expo.easeInOut,
   })
     .to(".boundingelem", {
@@ -56,7 +56,7 @@ function circleMouseFollower(xscale, yscale) {
 
 circleChaptaKaro();
 circleMouseFollower();
- firstPageAnim();
+//  firstPageAnim();
 
 
 document.querySelectorAll(".elem").forEach(function (elem) {
@@ -71,7 +71,7 @@ document.querySelectorAll(".elem").forEach(function (elem) {
     });
   });
 
-  elem.addEventListener("mousemove", function (dets) {
+  elem.addEventListener("mouemove", function (dets) {
     var diff = dets.clientY - elem.getBoundingClientRect().top;
     diffrot = dets.clientX - rotate;
     rotate = dets.clientX;
