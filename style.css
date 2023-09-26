@@ -11,7 +11,7 @@ html, body {
 }
 
 #minicircle {
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
     width: 10px;
     height: 10px;
     position: absolute;
@@ -84,7 +84,7 @@ html, body {
 .blocktext h5 {
     text-transform: uppercase;
     font-size: 15px;
-    text-align: right ;
+    text-align: right !important;
 }
 
 #chhotiheadings {
